@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	height: 1150px;
+	min-height: 1150px;
+	padding-top: 0;
+	margin-top: 0;
+
+}
+.navbar {
+	position: relative;
+	height: 60px;
+	background-color: #A40CE7;
+}
+.content {
+  width: 100%;
+  height: 920px;
+  position: relative;
+
+}
+
+/* content boxes for Index page*/
+
+/* content boxes for About Me page*/
+
+.content > .caseleft {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f2ee;
+	float: left;
+	
+}
+.content > .caselefttwo {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f2ee;
+	float: left;
+
+}
+.content.two {
+	background-color: #f6f2ee;
+	height: 1600px;
+}
+.content.three {
+	background-color: #f6f2ee;
+	height: 2200px;
+}
+.content.four {
+	background-color: #f6f2ee;
+	height: 2600px;
+}
+.content.five {
+	background-color: #f6f2ee;
+	height: 2400px;
+}
+.content.six {
+	background-color: #f6f2ee;
+}
+/* Text Box div on Index*/
+
+.content > .case1text {
+  position: absolute;
+  top: 10%;
+  display: block;
+  width: 100%;
+  text-align: left;
+	margin-left:300px;
+}
+
+.content.one h1 {
+	color: darkcyan;
+}
+
+.content > .casetext2 {
+  position: absolute;
+  top: 10%;
+  display: block;
+  width: 100%;
+  text-align: left;
+	margin-left: 100px
+  
+}
+.imgcontainer img {
+	width: 300px;
+	display: block;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 1300px;
+}
+.backgrnd2 img {
+	width: 820px;
+	display: block;
+
+	margin-top: 20px;
+	margin-left: 0px;
+}
+.backgrnd3 img {
+	width: 820px;
+	display: block;
+
+	margin-top: 20px;
+	margin-left: 0px;
+}
+.content.four img {
+	width: 820px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/* Text box div on about me*/
+.content.five img{
+	width: 820px;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+.centerimg {
+	width: 850px;
+margin-top: 100px;
+}
+.text {
+	color: #393939;
+	padding-right: 10px;
+	text-align: left;
+}
+
+.case1text {
+	color: #393939;
+	padding-right: 10px;
+
+
+}
+.study3text {
+	color: #393939;
+	padding-right: 10px;
+	text-align: left;
+	
+}
+.casetext2 {
+	color: #393939;
+	padding-right: 10px;
+	text-align: left;
+
+}
+.text2 {
+	color: #393939;
+	padding-right: 190px;
+}
+.dropdown {
+	margin-right: 50px;
+}
+.bi {
+	color: black;
+	font-size: 30px;
+}
+.navbar-brand {
+	margin-left: 50px;
+}
+.text-white {
+	text-decoration: none;
+}
+.logo {
+	width: 70px;
+}
+
+.expact {
+	margin-top: 100px;
+}
+
+
+
+.btn-success svg {
+	align-self: center;
+}
+p2 {
+	color: #393939;
+	font-size: 18px;
+
+}
+a {
+	text-decoration: none;
+}
+
+.bi-arrow-up {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	color: #393939;
+}
+.bi-arrow-down {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	color: #393939;
+}
+.scrollbuttons {
+	position: fixed;
+	bottom: 35%;
+	left: 2%;
+	width: 50px;
+	height: 100px;
+	z-index: 13;
+}
+.studyone {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 8;
+}
+/* content boxes for Index page*/
+
+
+
+
+.content > .study2left {
+	display: inline-block;
+	width: 55%;
+	height: 100%;
+	background-color: green;
+	float: left;
+}
+.content > .study3left {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+
+	background-color: #f6f2ee;
+	float: left;
+}
+.content > .study4left {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f2ee;
+	float: left;
+}
+.content > .study5left {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f2ee;
+	float: left;
+}
+.content > .study6left {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f2ee;
+	float: left;
+}
+.content > .study2right {
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	background-color: aqua;
+	float: left;
+
+}
+.content > .study2text {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  
+}
+.content > .study3text {
+  position: absolute;
+  top: 10%;
+  display: block;
+  width: 100%;
+  text-align: left;
+	margin-left: 100px
+  
+}
+.content > .study4text {
+  position: absolute;
+  top: 10%;
+  display: block;
+  width: 100%;
+  text-align: left;
+	margin-left: 100px
+  
+}
+.content > .study5text {
+  position: absolute;
+  top: 10%;
+  display: block;
+  width: 100%;
+  text-align: left;
+	margin-left: 100px
+  
+}
+.content > .study6text {
+  position: absolute;
+  top: 10%;
+  display: block;
+  width: 100%;
+  text-align: left;
+	margin-top: 50px;
+	margin-left: 100px;
+  
+}
+.study2text {
+	color: #393939;
+	padding-right: 250px;
+	text-align: left;
+}
+.study4text {
+	color: #393939;
+	padding-right: 250px;
+	text-align: left;
+}
+.study5text {
+	color: #393939;
+	padding-right: 250px;
+	text-align: left;
+}
+.study6text {
+	color: #393939;
+	padding-right: 250px;
+	text-align: left;
+}
+.backgrnd > p {
+	inline-size: 850px;
+}
+.backgrnd2 > p {
+	inline-size: 850px;
+}
+.backgrnd3 > p {
+	inline-size: 850px;
+}
+.backgrnd4 > p {
+	inline-size: 850px;
+}
+.backgrnd5 > p {
+	inline-size: 850px;
+}
+.backgrnd6 > p {
+	inline-size: 850px;
+}

@@ -1,0 +1,369 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	height: 1150px;
+	min-height: 1150px;
+	padding-top: 0;
+	margin-top: 0;
+}
+.navbar {
+	position: relative;
+	height: 60px;
+	background-color: #A40CE7;
+}
+.content {
+  width: 100%;
+  height: 920px;
+  position: relative;
+}
+.content2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* content boxes for Index page*/
+.content > .left {
+	display: inline-block;
+	width: 55%;
+	height: 100%;
+	background-color: green;
+	float: left;
+}
+.content > .right {
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	background-color: aqua;
+	float: left;
+
+}
+/* content boxes for About Me page*/
+.content2 > .leftAb {
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	background-color: green;
+	float: left;
+}
+.content2 > .rightAb {
+	display: inline-block;
+	width: 55%;
+	height: 100%;
+	background-color: green;
+	float: left;
+}
+.content > .caseleft {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: green;
+	float: left;
+}
+.content > .caselefttwo {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+	float: left;
+}
+/* Text Box div on Index*/
+.content > .text {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  
+}
+.content > .casetext {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  
+}
+.content > .case1text {
+  position: absolute;
+  top: 10%;
+  display: block;
+  width: 100%;
+  text-align: left;
+	margin-left: 100px
+  
+}
+.content > .casetext2 {
+  position: absolute;
+  top: 10%;
+  display: block;
+  width: 100%;
+  text-align: left;
+	margin-left: 100px
+  
+}
+/* Text box div on about me*/
+.content2 > .text2 {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  
+}
+.text {
+	color: white;
+	padding-right: 10px;
+	text-align: left;
+}
+.casetext {
+	color: white;
+	padding-right: 10px;
+	text-align: left;
+}
+.case1text {
+	color: white;
+	padding-right: 10px;
+	text-align: left;
+}
+.study3text {
+	color: white;
+	padding-right: 10px;
+	text-align: left;
+}
+.casetext2 {
+	color: white;
+	padding-right: 10px;
+	text-align: left;
+}
+.text2 {
+	color: white;
+	padding-right: 190px;
+}
+.dropdown {
+	margin-right: 50px;
+}
+.bi {
+	color: black;
+	font-size: 30px;
+}
+.navbar-brand {
+	margin-left: 50px;
+}
+.text-white {
+	text-decoration: none;
+}
+.logo {
+	width: 70px;
+}
+.left {
+	
+	background-size: cover;
+	align: center;
+	
+}
+.right {
+	background-size: cover;
+		background-image: url("../img/placeholder2.png");
+		background-position: center;
+}
+.leftAb {
+	background-image: url("../img/placeholder2.png");
+	background-size: cover;
+	align: center;
+	
+}
+.rightAb > .text2 {
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.rightAb p {
+	width: 250px;
+}
+.expact {
+	margin-top: 100px;
+}
+/*Carousel itself in Yellow box*/
+.carousel {
+	background-color: #004F3C;
+	width: 600px;
+	height: 250px;
+	border-radius: 10px;
+
+}
+.carousel-inner {
+	width: 580px;
+	margin-left: 20px;
+	
+}
+/* Carousel arrow buttons on About Me page*/
+.leftbutton {
+margin-left: 500px;
+	margin-right: 10px;
+	margin-top: 10px;
+	position: absolute;
+	z-index:11;
+}
+.rightbutton {
+	
+margin-left: 550px;
+	margin-right: 10px;
+	margin-top: 10px;
+	position: absolute;
+	z-index:12;
+}
+.btn-success {
+	width: 40px;
+
+}
+.btn-success svg {
+	align-self: center;
+}
+.firstSkill {
+	margin-top: 40px;
+}
+.secondSkill {
+	margin-top: 40px;
+}
+.thirdSkill {
+	margin-top: 40px;
+}
+.carousel-item {
+	margin-top: 50px;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 10px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 200px;
+}
+p2 {
+	color: #FFFFFF;
+	font-size: 18px;
+
+}
+a {
+	text-decoration: none;
+}
+.bi-arrow-right {
+	color: #FFFFFF;
+	margin-left: 0px;
+
+}
+.bi-arrow-up {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	color: #FFFFFF;
+}
+.bi-arrow-down {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	color: #FFFFFF;
+}
+.scrollbuttons {
+	position: fixed;
+	bottom: 35%;
+	left: 2%;
+	width: 50px;
+	height: 100px;
+	z-index: 13;
+}
+.studyone {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 8;
+}
+/* content boxes for Index page*/
+.content > .studyleft {
+	display: inline-block;
+	width: 55%;
+	height: 100%;
+	background-color: green;
+	float: left;
+}
+.content > .studyright {
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	background-color: aqua;
+	float: left;
+
+}
+.studyright {
+	background-size: cover;
+		background-image: url("../img/casestudy1.png");
+		background-position: center;
+}
+.studytext {
+	color: white;
+	padding-right: 250px;
+	text-align: left;
+}
+/* Text Box div on Index*/
+.content > .studytext {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  
+}
+.content > .study2left {
+	display: inline-block;
+	width: 55%;
+	height: 100%;
+	background-color: green;
+	float: left;
+}
+.content > .study3left {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: blueviolet;
+	float: left;
+}
+.content > .study2right {
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	background-color: aqua;
+	float: left;
+
+}
+.content > .study2text {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  
+}
+.content > .study3text {
+  position: absolute;
+  top: 10%;
+  display: block;
+  width: 100%;
+  text-align: left;
+	margin-left: 100px
+  
+}
+.study2right {
+	background-size: cover;
+		background-image: url("../img/casestudy1.png");
+	background-position: center;
+}
+.study2text {
+	color: white;
+	padding-right: 250px;
+	text-align: left;
+}
