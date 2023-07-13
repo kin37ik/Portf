@@ -47,13 +47,25 @@ html, body {
 	background-color: #f6f2ee;
 	height: 2200px;
 }
+.content.three3 {
+	background-color: #f6f2ee;
+	height: 2600px;
+}
 .content.four {
 	background-color: #f6f2ee;
 	height: 1300px;
 }
+.content.four4 {
+	background-color: #f6f2ee;
+	height: 900px;
+}
 .content.five {
 	background-color: #f6f2ee;
 	height: 4200px;
+}
+.content.five5 {
+	background-color: #f6f2ee;
+	height: 3300px;
 }
 .content.six {
 	background-color: #f6f2ee;
@@ -108,8 +120,18 @@ html, body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+.content.four4 img {
+	width: 820px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 /* Text box div on about me*/
 .content.five img{
+	width: 820px;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+.content.five5 img{
 	width: 820px;
 	margin-top: 20px;
 	padding-bottom: 40px;
