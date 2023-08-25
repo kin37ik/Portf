@@ -11,6 +11,9 @@ html, body {
 	height: 60px;
 	background-color: #A40CE7;
 }
+.content2 p2 {
+	width: 300px;
+}
 .content {
   width: 100%;
   height: 920px;
@@ -366,4 +369,7 @@ a {
 	color: white;
 	padding-right: 250px;
 	text-align: left;
+}
+.bi {
+	color: white;
 }
