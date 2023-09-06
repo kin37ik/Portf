@@ -27,14 +27,14 @@ html, body {
 /* content boxes for Index page*/
 .content > .left {
 	display: inline-block;
-	width: 55%;
+	width: 60%;
 	height: 100%;
 	background-color: green;
 	float: left;
 }
 .content > .right {
 	display: inline-block;
-	width: 45%;
+	width: 40%;
 	height: 100%;
 	background-color: aqua;
 	float: left;
@@ -76,6 +76,7 @@ html, body {
   display: block;
   width: 100%;
   text-align: center;
+	
   
 }
 .content > .casetext {
@@ -166,11 +167,11 @@ html, body {
 }
 .right {
 	background-size: cover;
-		background-image: url("../img/placeholder2.png");
+		background-image: url("../img/portpic.jpg");
 		background-position: center;
 }
 .leftAb {
-	background-image: url("../img/placeholder2.png");
+	background-image: url("../img/portpic.jpg");
 	background-size: cover;
 	align: center;
 	
@@ -289,14 +290,14 @@ a {
 /* content boxes for Index page*/
 .content > .studyleft {
 	display: inline-block;
-	width: 55%;
+	width: 60%;
 	height: 100%;
 	background-color: green;
 	float: left;
 }
 .content > .studyright {
 	display: inline-block;
-	width: 45%;
+	width: 40%;
 	height: 100%;
 	background-color: aqua;
 	float: left;
@@ -304,7 +305,7 @@ a {
 }
 .studyright {
 	background-size: cover;
-		background-image: url("../img/casestudy1.png");
+		background-image: url("../img/AusPostF.jpg");
 		background-position: center;
 }
 .studytext {
@@ -323,7 +324,7 @@ a {
 }
 .content > .study2left {
 	display: inline-block;
-	width: 55%;
+	width: 60%;
 	height: 100%;
 	background-color: green;
 	float: left;
@@ -337,7 +338,7 @@ a {
 }
 .content > .study2right {
 	display: inline-block;
-	width: 45%;
+	width: 40%;
 	height: 100%;
 	background-color: aqua;
 	float: left;
@@ -362,7 +363,7 @@ a {
 }
 .study2right {
 	background-size: cover;
-		background-image: url("../img/casestudy1.png");
+		background-image: url("../img/DreamAppJpg.jpg");
 	background-position: center;
 }
 .study2text {
